@@ -29,4 +29,5 @@ Should get a message "Server started"
 5)(in Client directory) bin/BGRSclient -ip- -port- (we used 127.0.0.1 ip and 7777 port).
 
 Should get a message "Starting connect to -ip-:-port- "
+
 6) (in Client directory) Now start run commands from the opcodes as described in the project description, after every request should get ACK -opcode- for successful operation and ERROR -opcode- for failed operation.
