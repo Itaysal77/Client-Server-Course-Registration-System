@@ -30,4 +30,4 @@ Should get a message "Server started"
 
 Should get a message "Starting connect to -ip-:-port- "
 
-6) (in Client directory) Now start run commands from the opcodes as described in the project description, after every request should get ACK -opcode- for successful operation and ERROR -opcode- for failed operation.
+6)(in Client directory) Now start run commands from the opcodes as described in the project description, after every request should get ACK -opcode- for successful operation and ERROR -opcode- for failed operation.
