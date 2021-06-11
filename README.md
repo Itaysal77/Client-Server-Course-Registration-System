@@ -1,10 +1,10 @@
 # Client-Server-Course-Registration-System
 Course Registration system implemented as client server communication. Server implemented as TPC and Reactor. project 3/4 in the 'Systems Programming' course.
 
-Project insturctions:
+Project instructions:
 https://docs.google.com/document/d/e/2PACX-1vRn6esmt4SNU4tU-iStPERIEJQPV4SSmBtIvmGEPWCvT0GzaTSpkjkp4u1hOtaGHg/pub
 
-In the instructions you can find as well the op codes to operate the system (such as Admin registration/login, student registration/login/ course registration, course info and more..)
+In the instructions you can find as well the opcodes to operate the system (such as Admin registration/login, student registration/login/ course registration, course info and more..)
 
 When running the program you can choose if you want the server to work in Reactor way and choose the number of threads, or TPC( Thread Per Client).
 
@@ -29,4 +29,4 @@ Should get a message "Server started"
 5)(in Client directory) bin/BGRSclient <ip> <port> (we used 127.0.0.1 ip and 7777 port).
 
 Should get a message "Starting connect to <ip>:<port> "
-6) (in Client directory) Now start run commands from the op codes as described in the project description, after every request should get ACK <opcode> for successful operation and ERROR <opcode> for failed operation.
+6) (in Client directory) Now start run commands from the opcodes as described in the project description, after every request should get ACK <opcode> for successful operation and ERROR <opcode> for failed operation.
