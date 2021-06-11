@@ -20,13 +20,13 @@ How to Operate:
 
 3)(in Server directory) mvn compile
 
-4)(in Server directory) for running Reactor Server: mvn exec:java -Dexec.mainClass=”bgu.spl.net.impl.BGRSServer.ReactorMain” -Dexec.args=”<port> <No of threads>” (we used port 7777)
+4)(in Server directory) for running Reactor Server: mvn exec:java -Dexec.mainClass=”bgu.spl.net.impl.BGRSServer.ReactorMain” -Dexec.args=”-port- -No of threads-” (we used port 7777)
 
-For running TPC Server: mvn exec:java -Dexec.mainClass=”bgu.spl.net.impl.BGRSServer.TPCMain” -Dexec.args=”<port>”
+For running TPC Server: mvn exec:java -Dexec.mainClass=”bgu.spl.net.impl.BGRSServer.TPCMain” -Dexec.args=”-port-”
 
 Should get a message "Server started"
 
-5)(in Client directory) bin/BGRSclient <ip> <port> (we used 127.0.0.1 ip and 7777 port).
+5)(in Client directory) bin/BGRSclient -ip- -port- (we used 127.0.0.1 ip and 7777 port).
 
-Should get a message "Starting connect to <ip>:<port> "
-6) (in Client directory) Now start run commands from the opcodes as described in the project description, after every request should get ACK <opcode> for successful operation and ERROR <opcode> for failed operation.
+Should get a message "Starting connect to -ip-:-port- "
+6) (in Client directory) Now start run commands from the opcodes as described in the project description, after every request should get ACK -opcode- for successful operation and ERROR -opcode- for failed operation.
